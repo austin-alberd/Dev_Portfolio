@@ -13,6 +13,7 @@ body{
 
 img{
     border-radius: 10em 10rem;
+    
 }
 
 #wrapper{
@@ -28,9 +29,27 @@ img{
     margin-right:2.5rem;
 }
 
+h3{
+    text-decoration: underline;
+    text-decoration-color:var(--acColor1);
+    text-decoration-thickness: 0.25rem;
+}
+
+a{
+    color:var(--textColor)
+}
+
+a:hover{
+    color:var(--acColor1);
+}
+
 @media screen and (max-width: 768px) {
     #wrapper {
       /*display property will be overriden as any class further inside this scope*/
       display: block;
+    }
+    img{
+        width:75%;
+        height:75%;
     }
 }
